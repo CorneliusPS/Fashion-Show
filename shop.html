@@ -51,7 +51,17 @@
                             <nav>                                                
                                 <ul id="navigation">  
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Fashion</a></li>
+                                    <li class="nav-item dropdown -sm">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Fashion
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="shop.html#clothes">Clothes</a>
+                                          <a class="dropdown-item" href="shop.html#bag">Bag</a>
+                                          <a class="dropdown-item" href="shop.html#shoes">Shoes</a>
+                                          <a class="dropdown-item" href="shop.html#acc">Accesories</a>
+                                        </div>
+                                      </li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
@@ -61,9 +71,7 @@
                         <div class="header-right">
                             <ul>
                                 <li>
-                                    <div class="nav-search search-switch">
-                                        <span class="flaticon-search"></span>
-                                    </div>
+                                    
                                 </li>
                             </ul>
                         </div>
@@ -79,7 +87,7 @@
     </header>
     <main>
         <!-- Hero Area Start-->
-        <div class="slider-area ">
+        <div id="clothes" class="slider-area ">
             <div class="single-slider slider-height2 d-flex align-items-center">
                 <div class="container">
                     <div class="row">
@@ -96,33 +104,7 @@
         <!-- Latest Products Start -->
         <section class="popular-items latest-padding">
             <div class="container">
-                <div class="row product-btn justify-content-between mb-40">
-                    <div class="properties__button">
-                        <!--Nav Button  -->
-                        <nav>                                                      
-                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Newest Style</a>
-                            </div>
-                        </nav>
-                        <!--End Nav Button  -->
-                    </div>
-                    <!-- Grid and List view -->
-                    <div class="grid-list-view">
-                    </div>
-                    <!-- Select items -->
-                    <div class="select-this">
-                        <form action="#">
-                            <div class="select-itms">
-                                <select name="select" id="select1">
-                                    <option value="">40 per page</option>
-                                    <option value="">50 per page</option>
-                                    <option value="">60 per page</option>
-                                    <option value="">70 per page</option>
-                                </select>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <p class="type line">Women</p>
                 <!-- Nav Card -->
                 <div class="tab-content" id="nav-tabContent">
                     <!-- card one -->
@@ -139,6 +121,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Feminine Dresses</a></h3>
+                                <p>Start from Rp.200.000</p>
                             </div>
                         </div>
                     </div>
@@ -153,9 +136,8 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">
-                                Denim Skirt With White T-Shirt
-                                </a></h3>
+                                <h3><a href="product_details.html">Denim Skirt With White T-Shirt</a></h3>
+                                <p>Start from Rp.250.000</p>
                             </div>
                         </div>
 						
@@ -171,6 +153,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Utility Jumpsuit</a></h3>
+                                <p>Start from Rp.300.000</p>
                             </div>
                         </div>
 						
@@ -186,6 +169,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Oversized Victorian Sleeves</a></h3>
+                                <p>Start from Rp.300.000</p>
                             </div>
                         </div>
                     </div>
@@ -200,6 +184,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Ripped Jeans</a></h3>
+                                <p>Start from Rp.150.000</p>
                             </div>
                         </div>
                     </div>
@@ -215,13 +200,15 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Wide Lag Pants</a></h3>
+                                <p>Start from Rp.150.000</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 </div>
 				
-				<!-- Pria -->
+                <!-- Pria -->
+                <p class="type line">Men</p>
 				<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -234,6 +221,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Cuban Collar Shirt</a></h3>
+                                <p>Start from Rp.200.000</p>
                             </div>
                         </div>
                     </div>
@@ -248,9 +236,8 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">
-                                Flannel Shirt
-                                </a></h3>
+                                <h3><a href="product_details.html">Flannel Shirt</a></h3>
+                                <p>Start from Rp.200.000</p>
                             </div>
                         </div>
 						
@@ -266,6 +253,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Tropical Vibes</a></h3>
+                                <p>Start from Rp.150.000</p>
                             </div>
                         </div>
 						
@@ -281,6 +269,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Cargo Pants</a></h3>
+                                <p>Start from Rp.200.000</p>
                             </div>
                         </div>
                     </div>
@@ -295,6 +284,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Suit Pants</a></h3>
+                                <p>Start from Rp.450.000</p>
                             </div>
                         </div>
                     </div>
@@ -310,6 +300,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Harem Pants</a></h3>
+                                <p>Start from Rp.200.000</p>
                             </div>
                         </div>
                     </div>
@@ -322,7 +313,7 @@
         </div>
         </section>
                 <!-- Hero Area Bag Start-->
-				<div class="slider-area ">
+				<div id="bag" class="slider-area ">
 					<div class="single-slider slider-height2 d-flex align-items-center">
 						<div class="container">
 							<div class="row">
@@ -340,6 +331,8 @@
         <div class="container">
             <div class="tab-content" id="nav-tabContent">
                         <!-- Bag -->
+                        <!--Wanita-->
+                        <p class="type line">Women</p>
                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -352,7 +345,7 @@
                                 </div>
                                 <div class="popular-caption">
                                     <h3><a href="product_details.html">Bucket Bag</a></h3>
-
+                                    <p>Start from Rp.150.000</p>
                                 </div>
                             </div>
                         </div>
@@ -367,9 +360,8 @@
                                     </div>
                                 </div>
                                 <div class="popular-caption">
-                                    <h3><a href="product_details.html">
-                                    Crossbody Handbag
-                                    </a></h3>
+                                    <h3><a href="product_details.html">Crossbody Handbag</a></h3>
+                                    <p>Start from Rp.200.000</p>
                                 </div>
                             </div>
                         </div>
@@ -384,9 +376,16 @@
                                 </div>
                                 <div class="popular-caption">
                                     <h3><a href="product_details.html">Geometry Waist Bag</a></h3>
+                                    <p>Start from Rp.100.000</p>
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        </div>
+                        <!--Pria-->
+                        <p class="type line">Men</p>
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                             <div class="single-popular-items mb-50 text-center">
                                 <div class="popular-img">
@@ -398,6 +397,7 @@
                                 </div>
                                 <div class="popular-caption">
                                     <h3><a href="product_details.html">Briefcase Bag</a></h3>
+                                    <p>Start from Rp.450.000</p>
                                 </div>
                             </div>
                         </div>
@@ -412,6 +412,7 @@
                                 </div>
                                 <div class="popular-caption">
                                     <h3><a href="product_details.html">Waist Bag for Men</a></h3>
+                                    <p>Start from Rp.200.000</p>
                                 </div>
                             </div>
                         </div>
@@ -427,6 +428,7 @@
                                 </div>
                                 <div class="popular-caption">
                                     <h3><a href="product_details.html">Handbag</a></h3>
+                                    <p>Start from Rp.300.000</p>
                                 </div>
                             </div>
                         </div>
@@ -436,7 +438,7 @@
         </div>
     </section>
         <!-- Hero Area Shoes Start-->
-				<div class="slider-area ">
+				<div id="shoes" class="slider-area ">
 					<div class="single-slider slider-height2 d-flex align-items-center">
 						<div class="container">
 							<div class="row">
@@ -454,7 +456,8 @@
         <div class="container">
                 <div class="tab-content" id="nav-tabContent">
                     <!-- card one -->
-					<!-- Shoes -->
+                    <!-- Shoes -->
+                    <p class="type line">Women</p>
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -467,6 +470,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Chunky Black Boots</a></h3>
+                                <p>Start from Rp.800.000</p>
                             </div>
                         </div>
                     </div>
@@ -481,9 +485,8 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">
-                                Ankle Strap Flat
-                                </a></h3>
+                                <h3><a href="product_details.html">Ankle Strap Flat</a></h3>
+                                <p>Start from Rp.200.000</p>
                             </div>
                         </div>
 						
@@ -499,10 +502,15 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Women Sneakers</a></h3>
+                                <p>Start from Rp.400.000</p>
                             </div>
                         </div>
-						
                     </div>
+                    </div>
+                    </div>
+                    <p class="type line">Men</p>
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
@@ -514,6 +522,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Cap Toe Boots</a></h3>
+                                <p>Start from Rp.800.000</p>
                             </div>
                         </div>
                     </div>
@@ -528,6 +537,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Sneakers for Men</a></h3>
+                                <p>Start from Rp.500.000</p>
                             </div>
                         </div>
                     </div>
@@ -543,6 +553,7 @@
                             </div>
                             <div class="popular-caption">
                                 <h3><a href="product_details.html">Two Strap Sandals</a></h3>
+                                <p>Start from Rp.300.000</p>
                             </div>
                         </div>
                     </div>
@@ -554,7 +565,7 @@
         
     </section>
         <!-- Hero Area Accesoris Start-->
-				<div class="slider-area ">
+				<div id="acc"class="slider-area ">
 					<div class="single-slider slider-height2 d-flex align-items-center">
 						<div class="container">
 							<div class="row">
@@ -573,6 +584,7 @@
             <div class="tab-content" id="nav-tabContent">
                 <!-- card one -->
                 <!-- Accesories -->
+                <p class="type line">Women</p>
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -585,6 +597,7 @@
                         </div>
                         <div class="popular-caption">
                             <h3><a href="product_details.html">Pastel Bucket Hat</a></h3>
+                            <p>Start from Rp.50.000</p>
                         </div>
                     </div>
                 </div>
@@ -599,6 +612,7 @@
                         </div>
                         <div class="popular-caption">
                             <h3><a href="product_details.html">Simple Bracelet</a></h3>
+                            <p>Start from Rp.100.000</p>
                         </div>
                     </div>
                 </div> 
@@ -612,13 +626,15 @@
                             </div>
                         </div>
                         <div class="popular-caption">
-                            <h3><a href="product_details.html">
-                            Simple Necklace
-                            </a></h3>
+                            <h3><a href="product_details.html">Simple Necklace</a></h3>
+                            <p>Start from Rp.150.000</p>
                         </div>
                     </div>
                 </div>
                 
+                <p class="type line">Men</p>
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-popular-items mb-50 text-center">
                         <div class="popular-img">
@@ -630,6 +646,7 @@
                         </div>
                         <div class="popular-caption">
                             <h3><a href="product_details.html">Casual Watch</a></h3>
+                            <p>Start from Rp.1.000.000</p>
                         </div>
                     </div>
                 </div>
@@ -645,6 +662,8 @@
                         </div>
                         <div class="popular-caption">
                             <h3><a href="product_details.html">Tag Necklace</a></h3>
+                            <p>Start from Rp.100.000</p>
+
                         </div>
                     </div>
                 </div>
@@ -660,6 +679,8 @@
                         </div>
                         <div class="popular-caption">
                             <h3><a href="product_details.html">Rings for Men</a></h3>
+                            <p>Start from Rp.100.000</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -692,7 +713,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-method mb-40">
                                 <i class="ti-reload"></i>
-                                <h6>Update 1x24 hours</h6>
+                                <h6>Periodic Updates</h6>
                             </div>
                         </div>
                     </div>
@@ -726,10 +747,10 @@
                             <div class="footer-tittle">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Fashion</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="shop.html">Fashion</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -739,10 +760,10 @@
                             <div class="footer-tittle">
                                 <h4>New Products</h4>
                                 <ul>
-                                    <li><a href="#">Clothes</a></li>
-                                    <li><a href="#">Bag</a></li>
-                                    <li><a href="#">Shoes</a></li>
-                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="shop.html#clothes">Clothes</a></li>
+                                    <li><a href="shop.html#bag">Bag</a></li>
+                                    <li><a href="shop.html#shoes">Shoes</a></li>
+                                    <li><a href="shop.html#acc">Accessories</a></li>
                                 </ul>
                             </div>
                         </div>
